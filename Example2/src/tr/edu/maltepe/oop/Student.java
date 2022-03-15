@@ -1,7 +1,10 @@
 package tr.edu.maltepe.oop;
 
-public class Student {
-    String name;
-    int age;
-    String department;
+public class Student extends Person {
+
+
+    public void learning(){
+        System.out.println("student "+getName()+" is learnıng now");
+
+    }
 }
